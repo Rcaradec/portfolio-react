@@ -1,9 +1,10 @@
 body {
-  background-color: gray;
+  background-color: rgb(214, 214, 214);
 }
 
 /* Logo spin rate */
 .slow-spin {
   -webkit-animation: fa-spin 30s infinite linear;
   animation: fa-spin 30s infinite linear;
+  margin-left: 10px;
 }
