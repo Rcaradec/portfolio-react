@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button";
@@ -24,6 +24,11 @@ function Navbar() {
       setButton(true);
     }
   };
+
+  // empeche le button "s'enregistrer" de revenir au refresh dans la navBar sur les petits ecrans
+  useEffect(() => {
+    showButton();
+  }, []);
 
   // quand on resize le screen on passe par showButton() pour gérer le bouton
   window.addEventListener("resize", showButton);
