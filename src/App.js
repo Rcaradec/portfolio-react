@@ -1,21 +1,28 @@
 import * as React from "react";
+
 import Navbar from "../src/components/NavBar/NavBar";
-import Accueil from "../src/components/Accueil/Accueil";
+import Main from "../src/components/Main/Main";
+import Prez from "../src/components/Prez/Prez";
+import Projects from "../src/components/Projects/Projects";
+
 import Button from "../src/components/Button/Button";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import "./styles/reset.scss";
-//import "./styles/App.scss";
+import "./styles/_reset.scss";
+import "./styles/App.scss";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Accueil />
-      <Routes>
-        <Route path="/" exact />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Main />
+        <Prez />
+        <Projects />
+        <Routes>
+          <Route path="/" exact />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

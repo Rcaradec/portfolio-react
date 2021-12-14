@@ -1,5 +1,10 @@
-body {
+#root {
   background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: column;
+  text-align: center;
 }
 
 /* Logo spin rate */
