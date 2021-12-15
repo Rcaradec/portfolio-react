@@ -11,6 +11,7 @@ function Navbar() {
         <ul className="navbar-ul">
           <li className="navbar-li">Accueil</li>
           <li className="navbar-li">Formation</li>
+          <li className="navbar-li">Projets</li>
         </ul>
       </nav>
     </div>

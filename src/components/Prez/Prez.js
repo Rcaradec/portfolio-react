@@ -1,9 +1,11 @@
+import About from "../About/About";
 import "./Prez.scss";
 
 function Prez() {
   return (
     <div className="prez">
-      <h2>Prez</h2>
+      <div className="prez-img"></div>
+      <About />
     </div>
   );
 }

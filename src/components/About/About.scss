@@ -1,0 +1,33 @@
+@use "../../styles/vars";
+
+.about {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bc6d85;
+  border: none;
+
+  &-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  &-description {
+    margin-bottom: 1rem;
+  }
+  &-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+      rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+      rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  }
+
+  &-btn:hover {
+    color: #bc6d85;
+    background-color: #004558;
+  }
+}

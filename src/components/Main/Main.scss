@@ -1,9 +1,33 @@
+@use "../../styles/vars";
+
 body {
   color: white;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
-  background-color: aqua;
+  background-color: vars.$bg-dark-color;
   width: 50vw;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  &-title {
+    margin-top: 8rem;
+    font-size: 4rem;
+  }
+
+  &-icons {
+    margin: 1rem;
+  }
+
+  &-icons a {
+    margin-left: 1rem;
+  }
 }

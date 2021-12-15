@@ -1,10 +1,14 @@
+@use "../../styles/vars";
+
 .navbar {
-  background-color: aquamarine;
+  background-color: vars.$bg-light-color;
+  box-shadow: rgba(0, 0, 141, 0.25) 0px 2px 5px -1px,
+    rgba(3, 41, 255, 0.3) 0px 1px 3px -1px;
   &-ul {
     display: flex;
     justify-content: space-around;
   }
   &-li {
-    padding: 1rem;
+    padding: 2rem;
   }
 }

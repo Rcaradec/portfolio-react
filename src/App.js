@@ -3,7 +3,7 @@ import * as React from "react";
 import Navbar from "../src/components/NavBar/NavBar";
 import Main from "../src/components/Main/Main";
 import Prez from "../src/components/Prez/Prez";
-import Projects from "../src/components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 import Button from "../src/components/Button/Button";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Main />
         <Prez />
-        <Projects />
+        <Contact />
         <Routes>
           <Route path="/" exact />
         </Routes>
