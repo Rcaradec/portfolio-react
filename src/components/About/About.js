@@ -9,8 +9,9 @@ function About() {
     <div className="about">
       <h2 className="about-title">A propos</h2>
       <p className="about-description">
-        lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem, sed
-        do eiusmod tempor incidid
+        Après une dizaine d'année dans l'Audiovisuel, de la lumière à la caméra,
+        j'ai décidé de mettre à profit cette sensibilité pour l'image au service
+        de ma passion pour le développement Web.
       </p>
       <button className="about-btn">En savoir plus</button>
     </div>

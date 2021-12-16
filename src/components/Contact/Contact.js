@@ -6,6 +6,7 @@ function Contact() {
     <div className="contact">
       <Form />
       <div className="contact-img-container"></div>
+      <img className="contact-img" src="/images/img-1.jpg"></img>
     </div>
   );
 }

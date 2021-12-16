@@ -1,9 +1,8 @@
 @use "../../styles/vars";
 
 .contact {
-  background-color: rgb(163, 37, 175);
   width: 20vw;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,9 +11,10 @@
 .contact-img-container {
   height: 40vh;
   width: 100%;
-  background-color: red;
-  background-image: url("../../styles/images/img-9.jpg");
-  background-size: cover;
-  box-shadow: rgba(197, 197, 197, 0.9) 0px 19px 38px,
-    rgba(255, 255, 255, 0.6) 0px 15px 12px;
+}
+
+.contact-img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }

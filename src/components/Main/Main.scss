@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-  background-color: vars.$bg-dark-color;
+  background-color: #1a292d;
   width: 50vw;
   height: 100%;
   display: flex;
@@ -21,6 +21,13 @@ body {
   &-title {
     margin-top: 8rem;
     font-size: 4rem;
+  }
+
+  &-description {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: unset;
   }
 
   &-icons {

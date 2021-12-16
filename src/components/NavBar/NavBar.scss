@@ -1,7 +1,8 @@
 @use "../../styles/vars";
 
 .navbar {
-  background-color: vars.$bg-light-color;
+  background-color: #1a292d;
+
   box-shadow: rgba(0, 0, 141, 0.25) 0px 2px 5px -1px,
     rgba(3, 41, 255, 0.3) 0px 1px 3px -1px;
   &-ul {

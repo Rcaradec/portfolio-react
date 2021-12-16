@@ -1,17 +1,15 @@
 import "./Main.scss";
 import Navbar from "../NavBar/NavBar";
 
-function Accueil() {
+function Main() {
   return (
     <div className="container">
       <Navbar />
       <div className="main">
-        <h1 className="main-title">Bienvenue</h1>
+        <h1 className="main-title">Rémi Caradec</h1>
         <p className="main-description">
-          lorem ipsum dolor sit amet, consect lorem lorem ipsum dolor sit amet
-          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum d
-          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum d
-          lorem ipsum d
+          Bonjour et bienvenue sur ce site qui a pour but de me présenter et de
+          vous proposer les différents projets que j'ai réalisé.
         </p>
         <div className="main-icons">
           <a>
@@ -26,4 +24,4 @@ function Accueil() {
   );
 }
 
-export default Accueil;
+export default Main;
